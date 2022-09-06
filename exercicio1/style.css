@@ -1,0 +1,35 @@
+h1{
+    background-color: blue;
+    color: #fff;
+}
+/* id é superior ao class e o tag */
+#titulo-importante{
+    background-color: aqua;
+    color: black;
+}
+h2{
+    background-color: yellow;
+}
+.sub-titulo{
+    background-color: pink;
+}
+/* classe mais importante que a tag  */
+section{
+    background-color: green;
+}
+h3{
+    color: #fff;
+}
+h4{
+    color:#fff; /*aqui afetou ate o footer*/
+}
+/* como h3 e h4 tem a mesma classe é mais facil usar classe */
+.titulo-secao{
+    color: #fff;
+}
+footer{
+    background-color: black;
+    color: #fff;
+}
+
+/* BOX MODEL */
