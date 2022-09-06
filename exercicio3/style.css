@@ -2,14 +2,23 @@
   padding: 0;
   margin: 0;
 }
+/* O * significa tudo */
+
 header{
   
+}
+
+main{
+  font-family: Helvetica;
+  background-color: aqua;
+  /* width: 100vw;
+  height: 100vh; */
 }
 
 section{
   float: left;
 /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
-  width: 840px;
+  width: 840vw; /*vw é largura*/
   padding: 40px;
 }
 
